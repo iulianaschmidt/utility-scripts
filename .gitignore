@@ -1,0 +1,16 @@
+# Ignore virtual environments and Python cache
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore all output files and raw data drops
+output/
+*.csv
+*.zip
+*.log
+*.txt
+
+# Optional: Ignore configs if they contain server credentials or sensitive endpoints
+# Remove these two lines if the configs are perfectly safe to push to GitHub
+config/*.json
+config/*.xml
